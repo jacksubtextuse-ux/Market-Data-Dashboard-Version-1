@@ -37,3 +37,9 @@ b.schema/output/*.error.txt
 # Local-only easter eggs / experiments. The weekly refresh pushes with
 # `git add -A`, so anything meant to stay off the live site must be ignored.
 *.local.js
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
